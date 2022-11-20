@@ -3,6 +3,9 @@ const TelegramBot = require('node-telegram-bot-api')
 const token ="5567204987:AAFJ3UL1M6KsOAx3a4ppv-I113kv4T-i3so";
 
 const webAppUrl = 'https://delightful-madeleine-ec1dcf.netlify.app/'
+
+
+
 const bot = new TelegramBot(token, {polling: true});
 
 
